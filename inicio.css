@@ -1,0 +1,146 @@
+body{
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./imagenes/Casa\ w\ 1.jpg");
+    text-align: center;
+    justify-content: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("./imagenes/3.jpg");
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    50%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./imagenes/4.jpg");
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    75%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://glariaestudioarquitectura.files.wordpress.com/2014/11/vivienda4-1-glaria-estudio.jpg");
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    100%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.portaldearquitectos.com/uploads/prop_properties/INARCH_arquitectura_construccion_C0006_2_1_009_01.jpg");
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+.texto{
+    position: relative;
+    top: 18vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    width: auto;
+    max-width: 500px;
+    height: 100px;
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    height: 100px;
+}
+.logoYredes{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 40px;
+    width: 210px;
+    height: 120px;
+}
+@media screen and (max-width: 350px) {
+    .logoYredes {
+        flex-direction: column;
+    }
+}
+.logo{
+    position: relative;
+    top: 10px;
+    position: relative;
+    left: 5vw;
+    width: 120px;
+    height: 120px;
+}
+.redes{
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    left: 6vw;
+    gap: 2px;
+}
+.imag > img{
+    position: relative;
+    top:5px;
+}
+.imag{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-items: center;
+}
+.imag:hover{
+    background-color: rgb(165, 106, 29);
+}
+.boton{
+    width: 100px;
+    height: 100px;
+}
+.btn{
+    position: relative;
+    top: 25px;
+    right: 5vw;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border: 2px solid white;
+    align-items: center;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(165, 106, 29);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
